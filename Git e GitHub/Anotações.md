@@ -1,13 +1,11 @@
 # Introdução ao Git e GitHub
 
-# Git:
-
 ### Importância:
 
 - **Versionamento de código (controle de versão)**
     - Armazenamento em nuvem
     - Trabalho em equipe
-- ==**Git**==: criado por Linus Torvalds
+    - criado por Linus Torvalds
 
 - [Download do Git](https://git-scm.com/downloads)
 
@@ -15,67 +13,18 @@
 
 - O **Git** é um **CLI (Comand Line Interface):** não tem interface gráfica. É feito por linha de comando.
 
-**Windows**:
+**Windows**:           
+- **cd + nome da pasta** -- muda de diretório exemplo: cd / vai para a pasta raíz C
+- **cd ..** -- volta um nível na navegação
+- **cd + tab** -- completa o nome da pasta
+- **cls ou ctrl + L |  clear (Unix)** -- limpa o terminal
+- **dir | ls (Unix)** -- lista os diretórios contidos na pasta
+- **mkdir + nome da pasta** -- cria um diretório
+- **del** -- deleta um arquivo
+- **rmdir /S /Q | rm -rf  (Unix)** -- deleta um diretório com todas as pastas dentro
+- **echo + texto** -- printa o texto
+- **echo + texto > nome arquivo** -- cria um arquivo com esse nome
 
-**Unix**:
-
-**o que faz**
-
-- cd + nome da pasta
-
-- cd + nome da pasta
-
-**c**hange **d**irectory
-
-muda de diretório
-
-ex: cd / (vai para a pasta raíz C)
-
-- cd ..
-- cd ..
-
-volta um nível na navegação
-
-- cd + tab
-
-.
-
-completa o nome da pasta
-
-- cls
-- clear ou ctrl+ L
-
-limpa o terminal
-
-- dir
-- Is
-
-lista os diretórios contidos na pasta 
-
-- mkdir + nome da pasta
-- mkdir + nome da pasta
-
-cria um diretório
-
-- del
-- del
-
-deleta um arquivo
-
-- rmdir /S /Q
-- rm -rf
-
-deleta um diretório com todas as pastas dentro
-
-- echo + texto
-- echo + texto
-
-printa o texto
-
-- echo + texto > nome arquivo
-- echo + texto > nome arquivo
-
-cria um arquivo com esse nome
 
 ### Entendendo como o Git funciona por baixo dos panos:
 
@@ -99,12 +48,11 @@ cria um arquivo com esse nome
 - **git init** — inicializa repositório no git
 - **git add** **nomeArquivo** — nomeia o arquivo
 - **git add .** — adiciona arquivos novos e modificados
-- **git add *** — adiciona arquivos novos e modificados do diretório atual
+- git add * — adiciona arquivos novos e modificados do diretório atual
     - ex: git add *.java - adiciona todos os arquivos terminados com .java
 - **git commit -m “mensagem”** — faz um commit
 - **git status** — mostra se os arquivos sofreram edição e precisam ser movidos pro staged — para depois ir pro commit
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a51c7fe2-ebee-4315-94a2-2a59774a7520/Untitled.png)
 
 - **Ambiente de desenvolvimento**
     - Working directory
@@ -113,13 +61,14 @@ cria um arquivo com esse nome
 
 ### Trabalhando com o Git e GitHub:
 
-- **git clone** + link do repositorio — clona um repositório
+
 - cria o repositório online no github
 - Abre o Gitbash dentro da pasta que você quer adicionar ao repositório.
-    - digita **git remote add origin + link do repositório**
-    - digita **git remote -v** para listar o que foi colocado
-    - digita **git status** para ver se está na branch
-    - digita **git push origin master** para dar um push e verificar a branch master.
+    - **git clone** + link do repositorio — clona um repositório
+    - **git remote add origin + link do repositório**
+    - **git remote -v** para listar o que foi colocado
+    - **git status** para ver se está na branch
+    - **git push origin master ou main** para dar um push e verificar a branch master ou main.
     
 - **ls -a** — mostra os diretórios ocutos
 - **git remote -v** — mostra os repositórios remotos que o repositório baixado está apontado
