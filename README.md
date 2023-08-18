@@ -1,6 +1,6 @@
 # Sistemas de controle de versão:
 
-Controla, as versões de um arquivo ao longo do tempo
+Controla as versões de um arquivo ao longo do tempo
 
 - Registra o histórico de atualizações de um arquivo;
 - Gerencia quais foram as alterações, a data, o autor, etc;
